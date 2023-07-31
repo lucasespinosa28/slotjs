@@ -67,7 +67,7 @@ export class SlotMachine {
         wrapper,
         handleUseCoin,
         handleGetPrice,
-        reelCount = 3,
+        reelCount = 5,
         symbols = SYMBOLS_CLASSIC,
         isPaused = false,
         speed = -0.552, // TODO: Make enum and match sounds too.

@@ -1,4 +1,4 @@
-import { SYMBOLS_RANDOM } from '../../constants/symbols.constants';
+import { SYMBOLS_CUSTOM as SYMBOLS_RANDOM } from '../../constants/symbols.constants';
 import { HAS_TOUCH } from '../../constants/browser.constants';
 import { SlotMachine } from '../slot-machine/slot-machine.component';
 import { ToggleButton } from '../toggle-button/toggle-button.component';
@@ -243,7 +243,7 @@ export class App {
             this.mainElement,
             this.handleUseCoin,
             this.handleGetPrice,
-            5,
+            3,
             SYMBOLS_RANDOM,
             isFirstTime,
         );
